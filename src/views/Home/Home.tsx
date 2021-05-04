@@ -62,7 +62,7 @@ const Home: React.FC = () => {
         <Heading as="h1" size="xl" mb="24px" color="secondary">
           {TranslateString(576, 'PolyShark Finance')}
         </Heading>
-        <Text>{TranslateString(578, 'Top 3 best DEFI app on Polygon.')}</Text>
+        <Text>{TranslateString(578, 'Last generation yield farming based on polygon')}</Text>
       </Hero>
       <div>
         <Cards>

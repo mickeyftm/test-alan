@@ -23,6 +23,7 @@
 .env.development.local
 .env
 .eslintcache
+.vscode
 
 # debug
 npm-debug.log*
