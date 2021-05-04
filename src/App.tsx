@@ -48,7 +48,7 @@ const App: React.FC = () => {
             <Route path="/farms">
               <Farms />
             </Route>
-            <Route path="/nests">
+            <Route path="/pools">
               <Farms tokenMode/>
             </Route>
             {/* <Route path="/pools"> */}
@@ -75,7 +75,7 @@ const App: React.FC = () => {
           </Switch>
         </Suspense>
       </Menu>
-      <NftGlobalNotification />
+      {/* <NftGlobalNotification /> */}
     </Router>
   )
 }
