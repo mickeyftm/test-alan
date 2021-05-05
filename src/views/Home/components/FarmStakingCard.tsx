@@ -29,7 +29,7 @@ z-index: 2;
     width: 100%;
     height: 100%;
     z-index: -1;
-    opacity: 0.8;
+    opacity: 0.2;
   background-image: url('/images/egg/2a.png');
   background-repeat: no-repeat;
   background-position: top right;
