@@ -16,10 +16,25 @@ import useAllEarnings from '../../../hooks/useAllEarnings'
 import { getBalanceNumber } from '../../../utils/formatBalance'
 
 const StyledFarmStakingCard = styled(Card)`
+position: relative;
+overflow: hidden;
+z-index: 2;
+
+&:before {
+  content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.8;
   background-image: url('/images/egg/2a.png');
   background-repeat: no-repeat;
   background-position: top right;
   min-height: 376px;
+  }
 `
 
 const Block = styled.div`
