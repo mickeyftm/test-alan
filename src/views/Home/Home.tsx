@@ -21,6 +21,7 @@ const Hero = styled.div`
   margin-bottom: 32px;
   padding-top: 116px;
   text-align: center;
+  border-radius: 30px;
 
   ${({ theme }) => theme.mediaQueries.lg} {
     background-image: url('/images/egg/3.png'), url('/images/egg/3b.png');
@@ -62,7 +63,7 @@ const Home: React.FC = () => {
         <Heading as="h1" size="xl" mb="24px" color="secondary">
           {TranslateString(576, 'PolyShark Finance')}
         </Heading>
-        <Text>{TranslateString(578, 'Top 3 best DEFI app on Polygon.')}</Text>
+        <Text>{TranslateString(578, 'Last generation yield farming based on polygon')}</Text>
       </Hero>
       <div>
         <Cards>
