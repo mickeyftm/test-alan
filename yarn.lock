@@ -1932,7 +1932,7 @@
 
 "@pancakeswap-libs/uikit@Polyshark/goose-uikit":
   version "0.10.2"
-  resolved "https://codeload.github.com/Polyshark/goose-uikit/tar.gz/d16c5238f3cd6c3e42b3550f6b27b021600259d1"
+  resolved "https://codeload.github.com/Polyshark/goose-uikit/tar.gz/2062645528b853b7c6928804d0a5ace8cf798018"
   dependencies:
     "@types/lodash" "^4.14.162"
     "@types/styled-system" "^5.1.10"
