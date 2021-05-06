@@ -73,7 +73,7 @@ const config: MenuEntry[] = [
       },
       {
         label: 'Docs',
-        href: 'https://polysharkfi.gitbook.io/goose-finance/',
+        href: 'https://polysharkfi.gitbook.io/polyshark-finance/',
       },
       {
         label: 'Blog',
