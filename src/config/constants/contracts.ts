@@ -1,15 +1,12 @@
 export default {
   cake: {
-    56: '0xF952Fc3ca7325Cc27D15885d37117676d25BfdA6',
-    97: '',
+    137: '0xD201B8511aaB3E9b094b35ABcD5d7863c78D6d0e'
   },
   masterChef: {
-    56: '0xe70E9185F5ea7Ba3C5d63705784D8563017f2E57',
-    97: '',
+    137: '0x1414529422AdD5a715C3dE929C32B2d88aE4A761',
   },
   wbnb: {
-    56: '0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c',
-    97: '',
+    137: "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619"
   },
   lottery: {
     56: '',
@@ -20,11 +17,9 @@ export default {
     97: '',
   },
   mulltiCall: {
-    56: '0x1ee38d535d541c55c9dae27b12edf090c608e6fb',
-    97: '0x67ADCB4dF3931b0C5Da724058ADC2174a9844412',
+    137: '0x40524425bcb58Dc16f11746B0028e23aCDA1e128'
   },
   busd: {
-    56: '0xe9e7cea3dedca5984780bafc599bd69add087d56',
-    97: '',
+    137: '0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174'
   },
 }

@@ -12,11 +12,11 @@ const config: MenuEntry[] = [
     items: [
       {
         label: 'Exchange',
-        href: 'https://exchange.quickswap.com/',
+        href: 'https://quickswap.exchange/#/swap?outputCurrency=0xD201B8511aaB3E9b094b35ABcD5d7863c78D6d0e',
       },
       {
         label: 'Liquidity',
-        href: 'https://exchange.quickswap.com/#/pool',
+        href: 'https://quickswap.exchange/#/pool',
       },
     ],
   },
@@ -51,15 +51,7 @@ const config: MenuEntry[] = [
     items: [
       {
         label: 'QuickSwap',
-        href: '',
-      },
-      {
-        label: 'CoinGecko',
-        href: 'https://www.coingecko.com/en/coins/goose-finance',
-      },
-      {
-        label: 'CoinMarketCap',
-        href: 'https://coinmarketcap.com/currencies/goose-finance/',
+        href: 'https://info.quickswap.exchange/token/0xD201B8511aaB3E9b094b35ABcD5d7863c78D6d0e',
       },
     ],
   },
