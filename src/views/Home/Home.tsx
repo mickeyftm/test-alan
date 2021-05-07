@@ -5,9 +5,11 @@ import useI18n from 'hooks/useI18n'
 import Page from 'components/layout/Page'
 import FarmStakingCard from './components/FarmStakingCard'
 import LotteryCard from './components/LotteryCard'
+import Timer from './components/Timer'
 import CakeStats from './components/CakeStats'
 import TotalValueLockedCard from './components/TotalValueLockedCard'
 import TwitterCard from './components/TwitterCard'
+
 
 const Hero = styled.div`
   align-items: center;
@@ -90,6 +92,10 @@ const Home: React.FC = () => {
 
   return (
     <Page>
+      <Heading as="h1" size="xl" mb="24px" color="secondary" >
+          {TranslateString(579, 'Time until farming starts')}
+        </Heading>
+      <Timer />
       <Hero>
         <Heading as="h1" size="xl" mb="24px" color="secondary">
           {TranslateString(576, 'PolyShark Finance')}

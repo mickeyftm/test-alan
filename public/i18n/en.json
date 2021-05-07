@@ -764,6 +764,12 @@
     },
     {
       "data": {
+        "stringId": 579,
+        "text": "Time until yield farming starts."
+      }
+    },
+    {
+      "data": {
         "stringId": 580,
         "text": "Stake SHARK to earn new tokens."
       }
