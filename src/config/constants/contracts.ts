@@ -5,7 +5,7 @@ export default {
   masterChef: {
     137: '0x1414529422AdD5a715C3dE929C32B2d88aE4A761',
   },
-  wbnb: {
+  weth: {
     137: "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619"
   },
   lottery: {
@@ -19,7 +19,7 @@ export default {
   mulltiCall: {
     137: '0x40524425bcb58Dc16f11746B0028e23aCDA1e128'
   },
-  busd: {
+  usdc: {
     137: '0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174'
   },
 }

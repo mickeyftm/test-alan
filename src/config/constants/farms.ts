@@ -13,8 +13,8 @@ const farms: FarmConfig[] = [
     tokenAddresses: {
       137: '0xD201B8511aaB3E9b094b35ABcD5d7863c78D6d0e',
     },
-    quoteTokenSymbol: QuoteToken.BUSD,
-    quoteTokenAdresses: contracts.busd,
+    quoteTokenSymbol: QuoteToken.USDC,
+    quoteTokenAdresses: contracts.usdc,
   },
   // {
   //   pid: 1,
@@ -32,20 +32,20 @@ const farms: FarmConfig[] = [
   //   quoteTokenSymbol: QuoteToken.BNB,
   //   quoteTokenAdresses: contracts.wbnb,
   // },
-  {
-    pid: 2,
-    risk: 3,
-    lpSymbol: 'USDC-USDT LP',
-    lpAddresses: {
-      137: '0x2cF7252e74036d1Da831d11089D326296e64a728'
-    },
-    tokenSymbol: 'USDC',
-    tokenAddresses: {
-      137: '0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174',
-    },
-    quoteTokenSymbol: QuoteToken.BUSD,
-    quoteTokenAdresses: contracts.busd,
-  },
+  // {
+  //   pid: 2,
+  //   risk: 3,
+  //   lpSymbol: 'USDC-USDT LP',
+  //   lpAddresses: {
+  //     137: '0x2cF7252e74036d1Da831d11089D326296e64a728'
+  //   },
+  //   tokenSymbol: 'USDC',
+  //   tokenAddresses: {
+  //     137: '0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174',
+  //   },
+  //   quoteTokenSymbol: QuoteToken.BUSD,
+  //   quoteTokenAdresses: contracts.busd,
+  // },
   // {
   //   pid: 12,
   //   risk: 5,
