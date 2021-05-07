@@ -7,7 +7,7 @@ const farms: FarmConfig[] = [
     risk: 5,
     lpSymbol: 'SHARK-USDC LP',
     lpAddresses: {
-      137: '0xD201B8511aaB3E9b094b35ABcD5d7863c78D6d0e',
+      137: '0xb746Ed49B63f2239A8Ef33eE6D0F5Bb52eDa26Bc',
     },
     tokenSymbol: 'SHARK',
     tokenAddresses: {
