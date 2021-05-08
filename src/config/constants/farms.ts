@@ -63,23 +63,51 @@ const farms: FarmConfig[] = [
   //   quoteTokenSymbol: QuoteToken.BUSD,
   //   quoteTokenAdresses: contracts.busd,
   // },
-  // {
-  //   pid: 15,
-  //   risk: 1,
-  //   isTokenOnly: true,
-  //   lpSymbol: 'USDT',
-  //   lpAddresses: {
-  //     97: '',
-  //     56: '0xc15fa3e22c912a276550f3e5fe3b0deb87b55acd', // USDT-BUSD LP
-  //   },
-  //   tokenSymbol: 'USDT',
-  //   tokenAddresses: {
-  //     97: '',
-  //     56: '0x55d398326f99059ff775485246999027b3197955',
-  //   },
-  //   quoteTokenSymbol: QuoteToken.BUSD,
-  //   quoteTokenAdresses: contracts.busd,
-  // },
+  {
+    pid: 3,
+    risk: 5,
+    isTokenOnly: true,
+    lpSymbol: 'SHARK',
+    lpAddresses: {
+      137: '0xb746Ed49B63f2239A8Ef33eE6D0F5Bb52eDa26Bc'
+    },
+    tokenSymbol: 'SHARK',
+    tokenAddresses: {
+      137: '0xD201B8511aaB3E9b094b35ABcD5d7863c78D6d0e'
+    },
+    quoteTokenSymbol: QuoteToken.USDC,
+    quoteTokenAdresses: contracts.usdc,
+  },
+  {
+    pid: 1,
+    risk: 3,
+    isTokenOnly: true,
+    lpSymbol: 'WMATIC',
+    lpAddresses: {
+      137: '0x6e7a5fafcec6bb1e78bae2a1f0b612012bf14827'
+    },
+    tokenSymbol: 'WMATIC',
+    tokenAddresses: {
+      137: '0xD201B8511aaB3E9b094b35ABcD5d7863c78D6d0e'
+    },
+    quoteTokenSymbol: QuoteToken.USDC,
+    quoteTokenAdresses: contracts.usdc,
+  },
+  {
+    pid: 2,
+    risk: 3,
+    isTokenOnly: true,
+    lpSymbol: 'WETH',
+    lpAddresses: {
+      137: '0x853ee4b2a13f8a742d64c8f088be7ba2131f670d'
+    },
+    tokenSymbol: 'WETH',
+    tokenAddresses: {
+      137: '0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619'
+    },
+    quoteTokenSymbol: QuoteToken.USDC,
+    quoteTokenAdresses: contracts.usdc,
+  },
 ]
 
 export default farms
