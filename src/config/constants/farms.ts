@@ -88,7 +88,7 @@ const farms: FarmConfig[] = [
     },
     tokenSymbol: 'WMATIC',
     tokenAddresses: {
-      137: '0xD201B8511aaB3E9b094b35ABcD5d7863c78D6d0e'
+      137: '0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270'
     },
     quoteTokenSymbol: QuoteToken.USDC,
     quoteTokenAdresses: contracts.usdc,
