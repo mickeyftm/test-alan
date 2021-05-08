@@ -57,6 +57,7 @@ const fetchFarms = async () => {
         quoteTokenDecimals
       ] = await multicall(erc20, calls)
 
+
       let tokenAmount;
       let lpTotalInQuoteToken;
       let tokenPriceVsQuote;
@@ -115,8 +116,8 @@ const fetchFarms = async () => {
         ...farmConfig,
         tokenAmount: tokenAmount.toJSON(),
         // quoteTokenAmount: quoteTokenAmount,
-        lpTotalInQuoteToken: lpTotalInQuoteToken.times(new BigNumber(10).pow(12)).toJSON(),
-        tokenPriceVsQuote: tokenPriceVsQuote.times(new BigNumber(10).pow(12)).toJSON(),
+        lpTotalInQuoteToken: lpTotalInQuoteToken.times(new BigNumber(10).pow(tokenDecimals - quoteTokenDecimals)).toJSON(),
+        tokenPriceVsQuote: tokenPriceVsQuote.times(new BigNumber(10).pow(tokenDecimals - quoteTokenDecimals)).toJSON(),
         poolWeight: poolWeight.toNumber(),
         multiplier: `${allocPoint.div(100).toString()}X`,
         depositFeeBP: info.depositFeeBP,
