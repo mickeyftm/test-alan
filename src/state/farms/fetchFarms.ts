@@ -88,7 +88,7 @@ const fetchFarms = async () => {
         if(tokenAmount.comparedTo(0) > 0){
           tokenPriceVsQuote = quoteTokenAmount.div(tokenAmount);
         }else{
-          tokenPriceVsQuote = new BigNumber(quoteTokenBalanceLP).div(new BigNumber(tokenBalanceLP));
+          tokenPriceVsQuote = new BigNumber(quoteTokenBalanceLP).div(new BigNumber(tokenBalanceLP)).times(new BigNumber(10).pow(tokenDecimals - quoteTokenDecimals));
         }
       }
 
@@ -117,7 +117,7 @@ const fetchFarms = async () => {
         tokenAmount: tokenAmount.toJSON(),
         // quoteTokenAmount: quoteTokenAmount,
         lpTotalInQuoteToken: lpTotalInQuoteToken.times(new BigNumber(10).pow(tokenDecimals - quoteTokenDecimals)).toJSON(),
-        tokenPriceVsQuote: tokenPriceVsQuote.times(new BigNumber(10).pow(tokenDecimals - quoteTokenDecimals)).toJSON(),
+        tokenPriceVsQuote: tokenPriceVsQuote.toJSON(),
         poolWeight: poolWeight.toNumber(),
         multiplier: `${allocPoint.div(100).toString()}X`,
         depositFeeBP: info.depositFeeBP,
