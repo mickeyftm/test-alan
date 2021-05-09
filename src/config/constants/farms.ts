@@ -94,6 +94,36 @@ const farms: FarmConfig[] = [
     quoteTokenAdresses: contracts.usdc,
   },
   {
+    pid: 6,
+    risk: 3,
+    isTokenOnly: true,
+    lpSymbol: 'QUICK',
+    lpAddresses: {
+      137: '0x1f1e4c845183ef6d50e9609f16f6f9cae43bc9cb'
+    },
+    tokenSymbol: 'QUICK',
+    tokenAddresses: {
+      137: '0x831753dd7087cac61ab5644b308642cc1c33dc13'
+    },
+    quoteTokenSymbol: QuoteToken.USDC,
+    quoteTokenAdresses: contracts.usdc,
+  },
+  {
+    pid: 7,
+    risk: 3,
+    isTokenOnly: true,
+    lpSymbol: 'KRILL',
+    lpAddresses: {
+      137: '0x6405ebc22cb0899fc21f414085ac4044b4721a0d'
+    },
+    tokenSymbol: 'KRILL',
+    tokenAddresses: {
+      137: '0x05089c9ebffa4f0aca269e32056b1b36b37ed71b'
+    },
+    quoteTokenSymbol: QuoteToken.USDC,
+    quoteTokenAdresses: contracts.usdc,
+  },
+  {
     pid: 2,
     risk: 3,
     isTokenOnly: true,
@@ -137,7 +167,7 @@ const farms: FarmConfig[] = [
     },
     quoteTokenSymbol: QuoteToken.USDC,
     quoteTokenAdresses: contracts.usdc,
-  },
+  }
 ]
 
 export default farms
