@@ -32,20 +32,20 @@ export const fetchFarmUserTokenBalances = async (account: string) => {
     }
   });
 
-  const decimalsCalls = farmsConfig.map((farm) => {
-    const lpContractAddress = farm.isTokenOnly ? farm.tokenAddresses[CHAIN_ID] : farm.lpAddresses[CHAIN_ID];
-    return {
-      address: lpContractAddress,
-      name: 'decimals'
-    }
-  });
+  // const decimalsCalls = farmsConfig.map((farm) => {
+  //   const lpContractAddress = farm.isTokenOnly ? farm.tokenAddresses[CHAIN_ID] : farm.lpAddresses[CHAIN_ID];
+  //   return {
+  //     address: lpContractAddress,
+  //     name: 'decimals'
+  //   }
+  // });
 
   const rawTokenBalances = await multicall(erc20ABI, calls);
-  const tokenDecimals = await multicall(erc20ABI, decimalsCalls);
+  // const tokenDecimals = await multicall(erc20ABI, decimalsCalls);
 
-  const zip = rows => rows[0].map((_, c) => rows.map(row => row[c]));
+  // const zip = rows => rows[0].map((_, c) => rows.map(row => row[c]));
 
-  const parsedTokenBalances = zip([rawTokenBalances, tokenDecimals]).map(([tokenBalance, decimals]) => {
+  const parsedTokenBalances = rawTokenBalances.map((tokenBalance) => {
     return new BigNumber(tokenBalance).toJSON()
   });
   
