@@ -46,7 +46,7 @@ export const fetchFarmUserTokenBalances = async (account: string) => {
   const zip = rows => rows[0].map((_, c) => rows.map(row => row[c]));
 
   const parsedTokenBalances = zip([rawTokenBalances, tokenDecimals]).map(([tokenBalance, decimals]) => {
-    return new BigNumber(tokenBalance).times(new BigNumber(10).pow(18 - decimals[0])).toJSON()
+    return new BigNumber(tokenBalance).toJSON()
   });
   
   return parsedTokenBalances
