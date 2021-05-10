@@ -82,7 +82,7 @@ const config: MenuEntry[] = [
     ],
   },
   {
-    label: 'Audit by Hacken',
+    label: 'Audit by TechRate',
     icon: 'AuditIcon',
     href: 'https://www.polyshark.finance/files/TechRate-Audit.pdf',
   },
