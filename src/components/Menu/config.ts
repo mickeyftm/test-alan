@@ -53,6 +53,14 @@ const config: MenuEntry[] = [
         label: 'QuickSwap',
         href: 'https://info.quickswap.exchange/token/0xD201B8511aaB3E9b094b35ABcD5d7863c78D6d0e',
       },
+      {
+        label: 'DappRadar',
+        href: 'https://dappradar.com/polygon/defi/polyshark-finance',
+      },
+      {
+        label: 'Vfat Tools',
+        href: 'https://vfat.tools/polygon/polyshark/',
+      },
     ],
   },
   {
