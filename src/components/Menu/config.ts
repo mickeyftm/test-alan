@@ -80,7 +80,12 @@ const config: MenuEntry[] = [
         href: 'https://medium.com/@polyshark.fi',
       },
     ],
-  }
+  },
+  {
+    label: 'Audit by Hacken',
+    icon: 'AuditIcon',
+    href: 'https://www.polyshark.finance/files/TechRate-Audit.pdf',
+  },
 ]
 
 export default config
