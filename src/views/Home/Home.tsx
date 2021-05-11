@@ -93,9 +93,9 @@ const Home: React.FC = () => {
   return (
     <Page>
       <Heading as="h1" size="xl" mb="24px" color="secondary" >
-          {TranslateString(579, 'Time until farming starts')}
+          {TranslateString(579, 'Yield Farming has begun.')}
         </Heading>
-      <Timer />
+      {/* <Timer /> */}
       <Hero>
         <Heading as="h1" size="xl" mb="24px" color="secondary">
           {TranslateString(576, 'PolyShark Finance')}
