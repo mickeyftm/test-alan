@@ -17,6 +17,21 @@ const farms: FarmConfig[] = [
     quoteTokenSymbol: QuoteToken.USDC,
     quoteTokenAdresses: contracts.usdc,
   },
+  {
+    pid: 9,
+    risk: 5,
+    lpSymbol: 'SHARK-PDOGE LP',
+    decimal: 18,
+    lpAddresses: {
+      137: '0xc150693bfb31129d6b9aeeeb415b958cdb73201e',
+    },
+    tokenSymbol: 'SHARK',
+    tokenAddresses: {
+      137: '0xD201B8511aaB3E9b094b35ABcD5d7863c78D6d0e',
+    },
+    quoteTokenSymbol: QuoteToken.USDC,
+    quoteTokenAdresses: contracts.usdc,
+  },
   // {
   //   pid: 1,
   //   risk: 5,
@@ -79,6 +94,22 @@ const farms: FarmConfig[] = [
     },
     quoteTokenSymbol: QuoteToken.USDC,
     quoteTokenAdresses: contracts.usdc,
+  },
+  {
+    pid: 10,
+    risk: 5,
+    isTokenOnly: true,
+    lpSymbol: 'PDOGE',
+    decimal: 18,
+    lpAddresses: {
+      137: '0x264e6bc3f95633725658e4d9640f7f7d9100f6ac'
+    },
+    tokenSymbol: 'PDOGE',
+    tokenAddresses: {
+      137: '0x8a953cfe442c5e8855cc6c61b1293fa648bae472'
+    },
+    quoteTokenSymbol: QuoteToken.WMATIC,
+    quoteTokenAdresses: contracts.wmatic,
   },
   {
     pid: 1,
