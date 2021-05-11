@@ -61,6 +61,10 @@ const config: MenuEntry[] = [
         label: 'Vfat Tools',
         href: 'https://vfat.tools/polygon/polyshark/',
       },
+      {
+        label: 'Coingecko',
+        href: 'https://www.coingecko.com/en/coins/polyshark-finance',
+      },
     ],
   },
   {
