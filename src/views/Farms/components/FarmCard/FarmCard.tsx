@@ -86,9 +86,10 @@ interface FarmCardProps {
   bnbPrice?: BigNumber
   ethereum?: provider
   account?: string
+  dogePrice?: BigNumber
 }
 
-const FarmCard: React.FC<FarmCardProps> = ({ farm, removed, cakePrice, bnbPrice, ethereum, account }) => {
+const FarmCard: React.FC<FarmCardProps> = ({ farm, removed, cakePrice, bnbPrice, ethereum, account, dogePrice }) => {
   const TranslateString = useI18n()
 
   const [showExpandableSection, setShowExpandableSection] = useState(false)
@@ -103,14 +104,17 @@ const FarmCard: React.FC<FarmCardProps> = ({ farm, removed, cakePrice, bnbPrice,
     if (!farm.lpTotalInQuoteToken) {
       return null
     }
-    if (farm.quoteTokenSymbol === QuoteToken.BNB) {
+    if (farm.quoteTokenSymbol === QuoteToken.WMATIC) {
       return bnbPrice.times(farm.lpTotalInQuoteToken)
     }
     if (farm.quoteTokenSymbol === QuoteToken.CAKE) {
       return cakePrice.times(farm.lpTotalInQuoteToken)
     }
+    if (farm.quoteTokenSymbol === QuoteToken.POLYDOGE) {
+      return dogePrice.times(farm.lpTotalInQuoteToken)
+    }
     return farm.lpTotalInQuoteToken
-  }, [bnbPrice, cakePrice, farm.lpTotalInQuoteToken, farm.quoteTokenSymbol])
+  }, [bnbPrice, cakePrice, farm.lpTotalInQuoteToken, farm.quoteTokenSymbol, dogePrice])
 
   const totalValueFormated = totalValue
     ? `$${Number(totalValue).toLocaleString(undefined, { maximumFractionDigits: 0 })}`

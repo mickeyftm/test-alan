@@ -69,33 +69,41 @@ export const usePoolFromPid = (sousId): Pool => {
 // Prices
 
 export const usePriceBnbBusd = (): BigNumber => {
-  const pid = 2 // BUSD-BNB LP
+  const pid = 1 // WMATIC-USDC LP
   const farm = useFarmFromPid(pid)
   return farm.tokenPriceVsQuote ? new BigNumber(farm.tokenPriceVsQuote) : ZERO
 }
 
 export const usePriceCakeBusd = (): BigNumber => {
-  // const pid = 1 // CAKE-BNB LP
-  // const bnbPriceUSD = usePriceBnbBusd()
-  // const farm = useFarmFromPid(pid)
-  // return farm.tokenPriceVsQuote ? bnbPriceUSD.times(farm.tokenPriceVsQuote) : ZERO
   const pid = 0; // SHARK-USDC LP
   const farm = useFarmFromPid(pid);
   return farm.tokenPriceVsQuote ? new BigNumber(farm.tokenPriceVsQuote) : ZERO;
 }
 
+export const usePriceDogeBusd = (): BigNumber => {
+  const bnbPriceUSD = usePriceBnbBusd() // WMATIC
+  const pid = 10; // POLYDOGE-WMATIC LP
+  const farm = useFarmFromPid(pid);
+  return farm.tokenPriceVsQuote ? bnbPriceUSD.times(farm.tokenPriceVsQuote) : ZERO
+}
+
+
 export const useTotalValue = (): BigNumber => {
   const farms = useFarms();
-  // const bnbPrice = usePriceBnbBusd();
+  const bnbPrice = usePriceBnbBusd();
   const cakePrice = usePriceCakeBusd();
+  const dogePrice = usePriceDogeBusd();
   let value = new BigNumber(0);
   for (let i = 0; i < farms.length; i++) {
     const farm = farms[i]
     if (farm.lpTotalInQuoteToken) {
       let val;
-      // if (farm.quoteTokenSymbol === QuoteToken.BNB) {
-      //   val = (bnbPrice.times(farm.lpTotalInQuoteToken));
-      // }
+      if (farm.quoteTokenSymbol === QuoteToken.WMATIC) {
+        val = (bnbPrice.times(farm.lpTotalInQuoteToken));
+      }
+      if (farm.quoteTokenSymbol === QuoteToken.POLYDOGE) {
+        val = (dogePrice.times(farm.lpTotalInQuoteToken));
+      }
       if (farm.quoteTokenSymbol === QuoteToken.CAKE) {
         val = (cakePrice.times(farm.lpTotalInQuoteToken));
       }else{
