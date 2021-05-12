@@ -75,7 +75,7 @@
     {
       "data": {
         "stringId": 304,
-        "text": "Total SHARK burned since launch"
+        "text": "Total GOAT burned since launch"
       }
     },
     {
@@ -123,13 +123,13 @@
     {
       "data": {
         "stringId": 320,
-        "text": "Stake LP tokens to earn SHARK"
+        "text": "Stake LP tokens to earn GOAT"
       }
     },
     {
       "data": {
         "stringId": 322,
-        "text": "Stake Shark, get SYRUP."
+        "text": "Stake Goat, get SYRUP."
       }
     },
     {
@@ -153,7 +153,7 @@
     {
       "data": {
         "stringId": 334,
-        "text": "Every time you stake and unstake SHARK tokens, the contract will automatically harvest SHARK rewards for you!"
+        "text": "Every time you stake and unstake GOAT tokens, the contract will automatically harvest GOAT rewards for you!"
       }
     },
     {
@@ -219,7 +219,7 @@
     {
       "data": {
         "stringId": 358,
-        "text": "Shark price"
+        "text": "Goat price"
       }
     },
     {
@@ -243,7 +243,7 @@
     {
       "data": {
         "stringId": 380,
-        "text": "1 SHARK = 1 SYRUP"
+        "text": "1 GOAT = 1 SYRUP"
       }
     },
     {
@@ -291,7 +291,7 @@
     {
       "data": {
         "stringId": 400,
-        "text": "SYRUP holders proportionally split 25% of SHARK block emissions each day (10 SHARK per block), Rewards are distributed each block."
+        "text": "SYRUP holders proportionally split 25% of GOAT block emissions each day (10 GOAT per block), Rewards are distributed each block."
       }
     },
     {
@@ -351,13 +351,13 @@
     {
       "data": {
         "stringId": 424,
-        "text": "%num% SHARK"
+        "text": "%num% GOAT"
       }
     },
     {
       "data": {
         "stringId": 426,
-        "text": "Spend SHARK to buy tickets, contributing to the lottery pot. Ticket purchases end approx. 30 minutes before lottery. Win prizes if 2, 3, or 4 of your ticket numbers match the winning numbers and their positions! Good luck!"
+        "text": "Spend GOAT to buy tickets, contributing to the lottery pot. Ticket purchases end approx. 30 minutes before lottery. Win prizes if 2, 3, or 4 of your ticket numbers match the winning numbers and their positions! Good luck!"
       }
     },
     {
@@ -435,19 +435,19 @@
     {
       "data": {
         "stringId": 454,
-        "text": "%num% SHARK Available"
+        "text": "%num% GOAT Available"
       }
     },
     {
       "data": {
         "stringId": 456,
-        "text": "Your amount must be a multiple of 10 SHARK"
+        "text": "Your amount must be a multiple of 10 GOAT"
       }
     },
     {
       "data": {
         "stringId": 458,
-        "text": "1 Ticket = 10 SHARK"
+        "text": "1 Ticket = 10 GOAT"
       }
     },
     {
@@ -495,7 +495,7 @@
     {
       "data": {
         "stringId": 478,
-        "text": "Ticket purchases are final. Your SHARK cannot be returned to you after buying tickets."
+        "text": "Ticket purchases are final. Your GOAT cannot be returned to you after buying tickets."
       }
     },
     {
@@ -507,7 +507,7 @@
     {
       "data": {
         "stringId": 482,
-        "text": "SHARK prizes to be claimed"
+        "text": "GOAT prizes to be claimed"
       }
     },
     {
@@ -543,13 +543,13 @@
     {
       "data": {
         "stringId": 494,
-        "text": "Approve SHARK"
+        "text": "Approve GOAT"
       }
     },
     {
       "data": {
         "stringId": 496,
-        "text": "SYRUP holders proportionally split 40% of SHARK block emissions each day (10 SHARK per block), Rewards are distributed each block."
+        "text": "SYRUP holders proportionally split 40% of GOAT block emissions each day (10 GOAT per block), Rewards are distributed each block."
       }
     },
     {
@@ -567,19 +567,19 @@
     {
       "data": {
         "stringId": 504,
-        "text": "You\u2019ll pay for the new tokens using SHARK-BNB LP tokens, which means you need to stake equal amounts of SHARK and BNB in a liquidity pool to take part."
+        "text": "You\u2019ll pay for the new tokens using GOAT-BNB LP tokens, which means you need to stake equal amounts of GOAT and BNB in a liquidity pool to take part."
       }
     },
     {
       "data": {
         "stringId": 506,
-        "text": "Get SHARK-BNB LP >"
+        "text": "Get GOAT-BNB LP >"
       }
     },
     {
       "data": {
         "stringId": 508,
-        "text": "The project gets the BNB, Goose Finance burns the SHARK."
+        "text": "The project gets the BNB, Goose Finance burns the GOAT."
       }
     },
     {
@@ -645,7 +645,7 @@
     {
       "data": {
         "stringId": 534,
-        "text": "Shark Stats"
+        "text": "Goat Stats"
       }
     },
     {
@@ -663,7 +663,7 @@
     {
       "data": {
         "stringId": 540,
-        "text": "New SHARK\/block"
+        "text": "New GOAT\/block"
       }
     },
     {
@@ -675,19 +675,19 @@
     {
       "data": {
         "stringId": 544,
-        "text": "SHARK to Harvest"
+        "text": "GOAT to Harvest"
       }
     },
     {
       "data": {
         "stringId": 546,
-        "text": "SHARK in Wallet"
+        "text": "GOAT in Wallet"
       }
     },
     {
       "data": {
         "stringId": 548,
-        "text": "Collecting SHARK"
+        "text": "Collecting GOAT"
       }
     },
     {
@@ -699,7 +699,7 @@
     {
       "data": {
         "stringId": 552,
-        "text": "SHARK to Collect"
+        "text": "GOAT to Collect"
       }
     },
     {
@@ -753,13 +753,13 @@
     {
       "data": {
         "stringId": 576,
-        "text": "PolyShark Finance"
+        "text": "PolyGoat Finance"
       }
     },
     {
       "data": {
         "stringId": 578,
-        "text": "PolyShark Finance, last generation yield farming based on polygon."
+        "text": "PolyGoat Finance, last generation yield farming based on polygon."
       }
     },
     {
@@ -771,7 +771,7 @@
     {
       "data": {
         "stringId": 580,
-        "text": "Stake SHARK to earn new tokens."
+        "text": "Stake GOAT to earn new tokens."
       }
     },
     {
@@ -789,7 +789,7 @@
     {
       "data": {
         "stringId": 586,
-        "text": "SHARK to burn (USD)"
+        "text": "GOAT to burn (USD)"
       }
     },
     {
@@ -801,7 +801,7 @@
     {
       "data": {
         "stringId": 590,
-        "text": "\u2b50\ufe0f Every time you stake and unstake LP tokens, the contract will automatically harvest SHARK rewards for you!"
+        "text": "\u2b50\ufe0f Every time you stake and unstake LP tokens, the contract will automatically harvest GOAT rewards for you!"
       }
     },
     {
@@ -819,13 +819,13 @@
     {
       "data": {
         "stringId": 596,
-        "text": "Buy SHARK and BNB tokens"
+        "text": "Buy GOAT and BNB tokens"
       }
     },
     {
       "data": {
         "stringId": 598,
-        "text": "Get SHARK-BNB LP tokens by adding SHARK and BNB liquidity"
+        "text": "Get GOAT-BNB LP tokens by adding GOAT and BNB liquidity"
       }
     },
     {
@@ -837,7 +837,7 @@
     {
       "data": {
         "stringId": 602,
-        "text": "While the sale is live, commit your SHARK-LP tokens to buy the IFO tokens"
+        "text": "While the sale is live, commit your GOAT-LP tokens to buy the IFO tokens"
       }
     },
     {
@@ -873,7 +873,7 @@
     {
       "data": {
         "stringId": 614,
-        "text": "Trade in for SHARK, or keep for your collection!"
+        "text": "Trade in for GOAT, or keep for your collection!"
       }
     },
     {
@@ -915,7 +915,7 @@
     {
       "data": {
         "stringId": 628,
-        "text": "When you trade in this NFT to receive SHARK, you will lose access to it forever!"
+        "text": "When you trade in this NFT to receive GOAT, you will lose access to it forever!"
       }
     },
     {
@@ -945,7 +945,7 @@
     {
       "data": {
         "stringId": 638,
-        "text": "Winners can trade in their NFTs for a SHARK value until the expiry date written below. If you don't trade in your NFT by then, don\u2019t worry: you\u2019ll still keep it in your wallet!"
+        "text": "Winners can trade in their NFTs for a GOAT value until the expiry date written below. If you don't trade in your NFT by then, don\u2019t worry: you\u2019ll still keep it in your wallet!"
       }
     },
     {
@@ -987,7 +987,7 @@
     {
       "data": {
         "stringId": 654,
-        "text": "Trade in for SHARK"
+        "text": "Trade in for GOAT"
       }
     },
     {
@@ -1113,7 +1113,7 @@
     {
       "data": {
         "stringId": 696,
-        "text": "Stake LP tokens to earn SHARK"
+        "text": "Stake LP tokens to earn GOAT"
       }
     },
     {
@@ -1155,13 +1155,13 @@
     {
       "data": {
         "stringId": 708,
-        "text": "The SHARK Lottery"
+        "text": "The GOAT Lottery"
       }
     },
     {
       "data": {
         "stringId": 710,
-        "text": "Buy tickets with SHARK"
+        "text": "Buy tickets with GOAT"
       }
     },
     {
@@ -1215,7 +1215,7 @@
     {
       "data": {
         "stringId": 10000,
-        "text": "Deposit Fee will be used to buyback SHARK"
+        "text": "Deposit Fee will be used to buyback GOAT"
       }
     },
     {
@@ -1227,7 +1227,7 @@
     {
       "data": {
         "stringId": 10002,
-        "text": "Stake tokens to earn SHARK"
+        "text": "Stake tokens to earn GOAT"
       }
     },
     {
